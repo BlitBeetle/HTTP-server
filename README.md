@@ -8,5 +8,9 @@ I have made an HTTP server. I hope to make it into an HTTPS server in the future
 In the terminal, run the following command while in the "Networking" folder
 sudo ./server
 
-Then open a second terminal and run 
+Then open a second terminal and run the comand
 curl -v http://localhost/
+
+To stop the server, run
+pgrep server
+sudo kill <pid>
